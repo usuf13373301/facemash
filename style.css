@@ -1,0 +1,74 @@
+/* @font-face {
+    font-family: arial-b;
+    src: url("fonts/Arial.ttf");
+} */
+
+* {
+    margin: 0;
+    font-family: 'Menlo';
+    font-weight: 600;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    font-size: 3vw;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: brown;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.photo {
+    width: 36vw;
+    height: 64vw;
+    max-width: 360px;
+    max-height: 640px;
+    margin: 10px;
+}
+
+.girls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 10vw;
+    width: 80vw;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.vs {
+    height: 20vh;
+    margin: 40vh 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 10vw;
+    width: 80vw;
+}
+
+.at {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
